@@ -1,0 +1,8 @@
+public abstract class Part {
+    private double price;
+
+    public Part(double price) {
+        this.price = price;
+    }
+
+}
