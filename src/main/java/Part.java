@@ -5,4 +5,7 @@ public abstract class Part {
         this.price = price;
     }
 
+    public double getPrice() {
+        return price;
+    }
 }
