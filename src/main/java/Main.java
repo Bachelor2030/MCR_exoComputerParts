@@ -3,8 +3,6 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-
-        double total = 0;
         // A list of parts
         ArrayList<Part> parts = new ArrayList<Part>();
 
@@ -28,11 +26,7 @@ public class Main {
 
 
         for (Part p : parts) {
-            total += p.getPrice();
             System.out.println(p + "\n");
         }
-
-        System.out.println(total);
-
     }
 }
