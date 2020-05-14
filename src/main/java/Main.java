@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         double total = 0;
+        // A list of parts
         ArrayList<Part> parts = new ArrayList<Part>();
 
         CPU.setDiscountPercent(75);
