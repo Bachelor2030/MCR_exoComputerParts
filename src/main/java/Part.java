@@ -24,4 +24,9 @@ public abstract class Part {
     public double getPrice() {
         return price;
     }
+
+    @Override
+    public String toString() {
+        return model + "\n  Price : " + price;
+    }
 }

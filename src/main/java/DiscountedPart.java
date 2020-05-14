@@ -39,4 +39,9 @@ public abstract class DiscountedPart extends Part {
     public double getPrice() {
         return getDiscountPercent() * super.getPrice();
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\n  Discounted price : " + getPrice();
+    }
 }

@@ -14,4 +14,8 @@ public class RAM extends Part {
         super(price, model);
     }
 
+    @Override
+    public String toString() {
+        return "RAM - " + super.toString();
+    }
 }
