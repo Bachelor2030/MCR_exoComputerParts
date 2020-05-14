@@ -9,9 +9,10 @@ public abstract class DiscountedPart extends Part {
     /**
      * DiscountedPart constructor, it creates a discounted part with the given non discounted price
      * @param price (double) the original price of the part
+     * @param model (String) the model of the part
      */
-    public DiscountedPart(double price) {
-        super(price);
+    public DiscountedPart(double price, String model) {
+        super(price, model);
     }
 
     /**
